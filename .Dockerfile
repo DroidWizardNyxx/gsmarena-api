@@ -1,6 +1,6 @@
 # 1. Começamos com uma imagem oficial do Playwright.
 # Isso já nos dá um Linux com Node.js e todas as dependências do browser instaladas.
-FROM mcr.microsoft.com/playwright:v1.44.1-jammy
+FROM mcr.microsoft.com/playwright:v1.53.2-jammy
 
 # 2. Definimos o diretório de trabalho dentro do contêiner.
 WORKDIR /app
