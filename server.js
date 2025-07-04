@@ -29,6 +29,12 @@ app.get('/device/:id', async (req, res) => {
     }
 });
 
+app.get('/ping', (req, res) => {
+    // Apenas responde com 'Pong!' para mostrar que o servidor está vivo.
+    // Não faz nenhuma operação pesada.
+    res.status(200).send('Pong!');
+});
+
 app.listen(PORT, () => {
     console.log(`Servidor da API GSMArena rodando na porta ${PORT}`);
 });
