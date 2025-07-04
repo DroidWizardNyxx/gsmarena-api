@@ -1,0 +1,9 @@
+# Ignora a pasta de módulos do Node da sua máquina local
+node_modules
+
+# Ignora o log de debug do npm
+npm-debug.log
+
+# Ignora os arquivos do Git
+.git
+.gitignore
